@@ -2,13 +2,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWRyaWVuMDI3IiwiYSI6ImNrdGg3amE2ODAzdnYybnBkM
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
-	center: [151.00426719438266,-33.818100821970944], // starting position
+	center: [153.06266924152015,-27.57609152296754], // starting position
+    //-27.57609152296754, 153.06266924152015
     zoom: 13 // starting zoom
 });
 		
 // create the popup
 var popup = new mapboxgl.Popup({ offset: 40 }).setText(
-    'Queensland'
+    '242 Mains Rd, Sunnybank QLD 4109'
 );
 
 // create DOM element for the marker
@@ -17,7 +18,7 @@ el.id = 'marker';
  
 // create the marker
 new mapboxgl.Marker(el)
-    .setLngLat([151.00426719438266,-33.818100821970944])
+    .setLngLat([153.06266924152015,-27.57609152296754])
     .setPopup(popup) // sets a popup on this marker
     .addTo(map);
 
