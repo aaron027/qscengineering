@@ -1,0 +1,49 @@
+/* -----------------------------------------------------------------
+    - Contact
+----------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+    .contact-form .btn {
+      width: 100%;
+    }
+  }
+  .tabcontent .contact-form {
+    padding-bottom: 1.875rem;
+  }
+  @media only screen and (max-width: 580px) {
+    .tabcontent .contact-form {
+      padding-bottom: 1.25rem;
+    }
+  }
+  
+  .map {
+    background-color: #F5F8F9;
+    border-radius: 13.3333333333px;
+    height: 23.75rem;
+    margin-bottom: 2rem;
+    position: relative;
+    direction: ltr;
+  }
+  @media only screen and (max-width: 580px) {
+    .map {
+      height: 15.625rem;
+    }
+  }
+  
+  .popover-map-title {
+    color: #44566C;
+    font-size: 1.1875rem;
+    margin-top: 0.0625rem;
+    margin-bottom: 0.5rem;
+  }
+  .popover-map-caption {
+    color: #44566C;
+    font-weight: 400;
+  }
+  
+  #marker {
+    background-image: url("../images/icon-map-pic.svg");
+    background-size: cover;
+    width: 3.125rem;
+    height: 3.125rem;
+    cursor: pointer;
+  }
