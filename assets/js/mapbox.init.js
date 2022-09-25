@@ -2,7 +2,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiYWRyaWVuMDI3IiwiYSI6ImNrdGg3amE2ODAzdnYybnBkM
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/light-v10',
-	center: [151.7613058,-32.9256024], // starting position
+	center: [151.00426719438266,-33.818100821970944], // starting position
     zoom: 13 // starting zoom
 });
 		
@@ -17,7 +17,7 @@ el.id = 'marker';
  
 // create the marker
 new mapboxgl.Marker(el)
-    .setLngLat([151.7613058,-32.9256024])
+    .setLngLat([151.00426719438266,-33.818100821970944])
     .setPopup(popup) // sets a popup on this marker
     .addTo(map);
 
