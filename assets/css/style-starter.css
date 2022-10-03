@@ -14319,4 +14319,8 @@ h4.text-head-content {
   }
 }
 
+.checkcircle i {
+  color: var(--primary-color);
+  margin-right: 8px;
+}
 /* //contact */
